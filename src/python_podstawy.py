@@ -16,3 +16,5 @@ print(zmienna) # wypisuje zmienną na ekranie
 print(liczba)
 
 # operatory
+
+print(Weronika Mrugałą)
