@@ -25,3 +25,12 @@ print ( 8<= 3)
 print ( 5 + 5)
 liczba = liczba + 5
 print(liczba)
+
+liczba = 3
+print (liczba + 1)
+print (liczba * 8)
+print (liczba / 3)
+print (liczba - 20)
+print ( liczba % 2)
+print ( liczba /2.3)
+print(liczba // 2.3)
