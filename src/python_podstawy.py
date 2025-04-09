@@ -20,3 +20,18 @@ print("zadanie domowe")
 
 
 # operatory
+print(1 < 6)
+print(5 == 5)
+print(8 <= 3)
+
+print(5+5)
+liczba = liczba + 5
+print(liczba)
+
+liczba = 10
+print(liczba + 1)
+print(liczba / 5)
+print(liczba % 3)
+print(liczba // 3)
+
+
