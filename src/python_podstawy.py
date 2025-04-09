@@ -17,6 +17,11 @@ print(liczba)
 print("julia goszczynska")
 print("zadanie domowe")
 
-
-
 # operatory
+print(1 < 6)
+print ( 5==5)
+print ( 8<= 3)
+
+print ( 5 + 5)
+liczba = liczba + 5
+print(liczba)
