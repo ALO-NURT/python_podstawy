@@ -14,5 +14,19 @@ zmienna = "Pięć" # w Pythonie zmienne mogą zmieniać typ - typowanie jest dyn
 print("Hello World!") # to jest funkcja, która wypisuje tekst podany jako argument
 print(zmienna) # wypisuje zmienną na ekranie
 print(liczba)
+print("Gabriela Maryniak")
 
 # operatory
+print(1 < 6)
+print(5 == 5)
+print(8 <= 3)
+print(5 + 5)
+liczba = liczba + 5
+print(liczba)
+
+liczba = 10
+print(liczba+ 1)
+print(liczba * 3)
+print(liczba / 5)
+print(liczba - 3)
+print(liczba % 3)
