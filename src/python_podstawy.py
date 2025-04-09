@@ -15,4 +15,15 @@ print("Hello World!") # to jest funkcja, która wypisuje tekst podany jako argum
 print(zmienna) # wypisuje zmienną na ekranie
 print(liczba)
 print("Oliwia Szymanska")
+print("zadanie domowe")
 # operatory
+print(1<6)
+liczba = liczba + 5
+print(liczba)
+
+liczba = 11
+print(liczba + 1)
+print(liczba * 3)
+print(liczba - 1)
+print(liczba // 4)
+print(liczba % 3)
