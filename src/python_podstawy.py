@@ -16,5 +16,7 @@ print(zmienna) # wypisuje zmienną na ekranie
 print(liczba)
 print("julia goszczynska")
 print(zadanie domowe)
+print(zadanie domowe)
+
 
 # operatory
