@@ -15,8 +15,8 @@ print("Hello World!") # to jest funkcja, która wypisuje tekst podany jako argum
 print(zmienna) # wypisuje zmienną na ekranie
 print(liczba)
 print("julia goszczynska")
-print(zadanie domowe)
-print(zadanie domowe)
+print("zadanie domowe")
+
 
 
 # operatory
