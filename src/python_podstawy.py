@@ -18,16 +18,41 @@ print("Michał Świeży")
 print("zadanie domowe")
 
 # operatory
-print(1 < 6)
+a = 6
+print(1 < a)
 print(5 == 5)
 print(8 <= 3)
+
 
 liczba = 10
 print(liczba + 1)
 print(liczba * 3)
 print(liczba / 3)
-print(liczba // 3)
+print(liczba // 3) # dzielenie całkowite
 print(liczba - 3)
 print(liczba % 3)
+liczba2 = liczba ** 2
+ciag_znakow2 = ciag_znakow + " cośtam"
+print(ciag_znakow2)
+
+liczba += 1 # liczba = liczba + 1
+liczba *= 3
+print(liczba)
+
+# typy złożone
+lista = [1, 2, 4, 8, 16, 32]
+krotka = (1, 2, 4, 8, 16, 32)
+print(lista)
+lista.append(64)
+print(lista)
+
+lista[0] = 1
+# instrukcje warunkowe
+if lista[0] == 1:
+    print("pierwszy element listy to jeden")
+elif lista[1] == 2:
+    print("drugi element listy jest równy dwa")
+else:
+    print("coś innego")
 
 
