@@ -17,3 +17,43 @@ print(liczba)
 print("Jan_Rychliki")
 
 # operatory
+a = 6
+print(1 < a < 7)
+print(5 == 5)
+print(8 <= 3)
+
+liczba = 10
+print(liczba + 1)
+print(liczba * 3)
+print(liczba / 3)
+print(liczba // 3)  # dzielenie całkowite
+print(liczba - 3)
+print(liczba % 3)  # reszta z dzielenia
+print(liczba ** 3)  # potęgowanie
+liczba2 = liczba ** 2
+ciag_znakow2 = ciag_znakow + " cośtam"
+print(ciag_znakow2)
+
+liczba += 1  # liczba = liczba + 1
+liczba *= 3
+print(liczba)
+
+# typy złożone
+lista = [1, 2, 4, 8, 16, 32]
+krotka = (1, 2, 4, 8, 16, 32)
+
+print(lista[5])
+lista[5] = 33  # zmienia wartość danej liczby 32 => 33
+  # krotka[5] = 33 to jest error
+print(lista)
+lista.append(64)
+print(lista)
+
+lista[0] = 2
+# instrukcja wwarunkowa
+if lista[0] == 1:
+    print("pierwszy element listy to jeden")
+elif lista[1] == 2:
+    print("drugi elemnet listy jest równy dwa")
+else:
+    print("coś innego")
