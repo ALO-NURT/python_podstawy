@@ -1,3 +1,4 @@
+from typing import List
 
 # Podstawy programowania w Pythonie
 # To jest komentarz - nie jest wykonywany przez interpreter
@@ -18,3 +19,27 @@ print(zmienna)  # wypisuje zmienną na ekranie
 print(liczba)
 
 # operatory
+print(4 < 3)
+print(4 == 4)
+print(8 <= 3)
+
+liczba = 10
+print(liczba + 5)
+print(liczba * 10)
+print(liczba - 3)
+print(liczba / 10)
+print(liczba // 3)  # dzielenie całkowite
+print(liczba % 3)
+liczba2 = liczba ** 2
+ciag_znakow2 = ciag_znakow + "costam"
+print(ciag_znakow2)
+
+liczba += 1  # liczba = liczba + 1
+liczba *= 3
+print(liczba)
+
+# typy złożone
+lista = [1, 2, 4, 8, 16, 32]
+krotka = (1, 2, 4, 8, 16, 32)
+print(lista)
+lista[5] = 33
