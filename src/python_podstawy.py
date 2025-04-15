@@ -16,3 +16,5 @@ print(zmienna) # wypisuje zmienną na ekranie
 print(liczba)
 print("Wiktoria Olaczek")
 # operatory
+
+print ("zadanie domowe")
