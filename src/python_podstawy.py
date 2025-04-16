@@ -15,4 +15,51 @@ print("Hello World!") # to jest funkcja, która wypisuje tekst podany jako argum
 print(zmienna) # wypisuje zmienną na ekranie
 print(liczba)
 print("Helena Borkowska")
+print("zadanie domowe")
 # operatory
+
+print(1<6)
+liczba = liczba + 5
+print(liczba)
+
+liczba = 11
+print(liczba + 1)
+print(liczba * 3)
+print(liczba - 1)
+print(liczba // 4)
+print(liczba % 3)
+
+#operatorya = 6
+ print(1 < a)
+ print(5==5)
+ print(8 <= 3)
+
+ liczba = 10
+ print(liczba + 1)
+print(liczba * 3)
+print(liczba / 3)
+print(liczba // 3)
+
+dzielenie całkowite
+print(liczba -3)
+print(liczba % 3)
+
+# typy złożone
+lista = [1,2,4,8,16,32]
+krotka = (1,2,4,8,16,32)
+print(lista)
+print(lista[0])
+lista[0]=5
+lista.append(64)
+print(lista)lista[0]=1
+print(lista)
+
+# insturkcja warunkowa
+ if lista == 1:
+print("pierwszy element listy to jeden")
+  if lista[1] == 2:
+    print("drugi element to dwa")
+    if lista[2] == 4:
+        print("trzeci element to cztery")
+        else:
+        print("drugi element nie jest dwójką")
