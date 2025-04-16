@@ -27,6 +27,24 @@ print(liczba)
 liczba = 10
 print(liczba+ 1)
 print(liczba * 3)
-print(liczba / 5)
+print(liczba / 5) # dzielenie całkowite
 print(liczba - 3)
-print(liczba % 3)
+print(liczba % 3) # reszta z dzielenia
+liczba2 =liczba ** 2
+ciag_znakow2 = ciąg_znaków + ("coś tam")
+print(ciag_znakow2)
+
+lista = [1, 3, 4, 8, 16, 32]
+krotka = (1,2, 4, 8, 16, 32)
+print(lista)
+print(lista[0])
+lista[0] = 5
+lista.append(64)
+print(lista)
+print(krotka[5])
+
+if lista[0] == 1:
+    print("pierwszy element listy to jeden")
+    print("w środku")
+elif lista[2] == 4
+    print('trzeci element to cztery')
