@@ -32,6 +32,26 @@ liczba = 10
 print(liczba + 1)
 print(liczba / 5)
 print(liczba % 3)
+
+lista = [1, 2, 4, 8, 16, 32]
+krotka = (1, 2, 4, 8, 16, 32)
+
+print(lista)
+lista.append(64)
+lista[0]=5
+print(lista)
+
+liczba = 10
+print(liczba + 1)
+print(liczba * 3)
+print(liczba / 3)
 print(liczba // 3)
+print(liczba - 3)
+print(liczba % 3)
+liczba2 = liczba ** 2
+
+
+
+
 
 
