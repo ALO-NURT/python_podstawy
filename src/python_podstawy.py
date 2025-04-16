@@ -27,3 +27,16 @@ print(liczba * 3)
 print(liczba - 1)
 print(liczba // 4)
 print(liczba % 3)
+
+lista = [1, 2, 3, 4, 6, 16, 32]
+krotka = (1, 2, 3, 4, 6, 16, 36)
+print(lista)
+print(lista[0])
+lista[0] = 5
+lista.append(64)
+print(lista)
+print(lista)
+if lista[0] == 1:
+    print("pierwszy elemant liczby to jeden")
+ if lista[1] == 2
+ elif lista [2] == 4
