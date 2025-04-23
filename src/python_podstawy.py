@@ -1,3 +1,4 @@
+import math
 
 # Podstawy programowania w Pythonie
 # To jest komentarz - nie jest wykonywany przez interpreter
@@ -38,5 +39,19 @@ print(lista)
 print(lista)
 if lista[0] == 1:
     print("pierwszy elemant liczby to jeden")
- if lista[1] == 2
- elif lista [2] == 4
+
+def miejsca_zerowe (a, b, c):
+    delta = b ** 2 - 4 * a * c
+    if delta < 0 :
+        print("brak miejsc zerowych")
+    elif delta == 0:
+        x1 = -b/(2 * a)
+        print(f"miejscem zerowym jest {x1}")
+    else:
+        delta_sqrt = math.sqrt(delta)
+        x1= (-b-delta_sqrt)/(2*a)
+        x2= (-b+ delta_sqrt)/(2*a)
+        print(f"miejsca zerowe to {x1} oraz {x2}")
+
+
+miejsca_zerowe(1,0,0)
