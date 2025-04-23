@@ -17,12 +17,18 @@ print("zadanie domowe") # to jest funkcja, która wypisuje tekst podany jako arg
 
 #lekcja 16.04.2025
 
+print(5+5)
+liczba = liczba + 5
+print(liczba)
+
 #operatory
 a = 6
 print(1 < a)
 print(5==5)
 print(8 <= 3)
 liczba = 10
+
+
 
 print(liczba + 1)
 print(liczba * 3)
@@ -34,8 +40,9 @@ print(liczba % 3) #reszta z dzielenia
 #typy złożone
 lista = [1,2,4,8,16,32]
 krotka = (1,2,4,8,16,32)
+
 print(lista)
-print(lista[0])lista[0]=5lista.append(64)
+print(lista[0])lista[0]=5 lista.append(64)
 print(lista)lista[0]=1
 print(lista)
 
@@ -48,3 +55,20 @@ elif lista[2] == 4:
     print("trzeci element to cztery")
 else:
     print("drugi element nie jest dwójką")
+
+def miejsce_zerowe ( a,b,c):
+    delta = b**2 - 4*a*c
+    if delta < 0 :
+        print ("brak miejsc zerowych")
+    elif  delta == 0:
+        x1 = -b/(2*a)
+        print("miejscem zerowym jest" + x1)
+    else:
+        delta_sqrt = math.sqrt(delta)
+        x1 = (-b-delta_sqrt)/(2*a)
+        x2 = (-b + delta_sqrt)/(2*a)
+        print(f"miejsca zerowe to {x1} oraz {x2}")
+
+
+miejsce_zerowe( a:1, b:0, c:0)
+miejsce_zerowe( a:1, b:0, c:-1)
