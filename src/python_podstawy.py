@@ -1,3 +1,4 @@
+import math
 
 # Podstawy programowania w Pythonie
 # To jest komentarz - nie jest wykonywany przez interpreter
@@ -49,6 +50,25 @@ print(liczba // 3)
 print(liczba - 3)
 print(liczba % 3)
 liczba2 = liczba ** 2
+
+def miejsca_zerowe (a,b,c):
+    delta = b**2 - 4*a*c
+    if delta < 0 :
+        print("brak miejsc zerowych")
+    elif delta == 0 :
+        x1 = -b / (2 * a)
+        print(f"miejscem zerowym jest = {x1}")
+    else :
+        delta_sqrt = math.sqrt(delta)
+        x1 = (-b - delta_sqrt)/(2*a)
+        x2 = (-b + delta_sqrt)/(2*a)
+        print(f"miejsce zerowe to {x1} oraz {x2}")
+
+miejsca_zerowe(1,0,0)
+miejsca_zerowe(1, 0, -1)
+
+
+
 
 
 
