@@ -16,3 +16,14 @@ print(zmienna) # wypisuje zmienną na ekranie
 print(liczba)
 
 # operatory
+
+while True:
+    pass
+
+for i in range(0, 10)
+    print(i+1)
+
+j=1
+while j<=10:
+    print(j)
+    j += 1
