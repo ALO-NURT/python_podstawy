@@ -69,6 +69,17 @@ miejsca_zerowe(1, 0, -1)
 
 
 
+for i in range(0, 101):
+    print(i+1)
+
+j = 1
+while j <= 10:
+    print(j)
+    j += 1
+
+
+
+
 
 
 
