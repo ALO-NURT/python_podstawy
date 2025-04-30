@@ -1,4 +1,5 @@
 import math
+from time import sleep
 
 # Podstawy programowania w Pythonie
 # To jest komentarz - nie jest wykonywany przez interpreter
@@ -55,3 +56,13 @@ def miejsca_zerowe (a, b, c):
 
 
 miejsca_zerowe(1,0,0)
+
+for i in range(1, 10):
+    print(i+1)
+
+
+
+j = 1
+while j <= 10:
+    print(j)
+    j += 1
