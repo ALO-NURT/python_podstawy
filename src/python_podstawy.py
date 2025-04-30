@@ -1,5 +1,6 @@
 import math
 
+
 # Podstawy programowania w Pythonie
 # To jest komentarz - nie jest wykonywany przez interpreter
 
@@ -51,3 +52,11 @@ def miejsca_zerowe (a, b, c):
 
 miejsca_zerowe(1,0,0)
 miejsca_zerowe(1,0,-1)
+
+for i in range(0,10):
+    print(i+1)
+
+j = 1
+while j <= 10:
+    print(j)
+    j += 1
