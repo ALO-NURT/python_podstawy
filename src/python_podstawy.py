@@ -63,3 +63,18 @@ print("pierwszy element listy to jeden")
         print("trzeci element to cztery")
         else:
         print("drugi element nie jest dwójką")
+
+def miejsca_zerowe(a,b,c):
+    delta=b**2-4*a*c
+    if delta <0:
+        ptint("brak miejsc zerowych")
+    elif delta == 0:
+        x1 = -b/(2*a)
+        print(f"miejscem zerowym jest={x1}")
+    else:
+        delta_sqrt = math.sqrt(delta)
+        x1=(-b-delta_sqrt)/(2*a)
+        x2=(-b+delta_sqrt)/(2*a)
+        print(f"miejsca zerowe to {x1} oraz {x2}")
+    miejsca_zerowe(1,0,0)
+
