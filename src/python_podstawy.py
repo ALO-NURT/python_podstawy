@@ -18,3 +18,15 @@ print(liczba)
 # operatory
 
 print(Weronika Mrugałą)
+def miejsce_zerowe (a, b, c):
+    delta=b**2-4*a*c
+    if delta < 0:
+        print("brak miejsc zerowych")
+    elif delta == 0:
+        x1=-b/(2*a)
+        print ("mniejscem zerowym jest" +x1)
+        delta_sqrt = math.sqrt (delta)=
+        x1=(-b-delta_sqrt)/(2*a)
+        x2=(-b+delta_sqrt)/(2*a)
+        print(f "miejsce zerowe to {*1} oraz {x2}")
+
