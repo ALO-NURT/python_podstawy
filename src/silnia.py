@@ -7,3 +7,4 @@ while i <= parametr:
     i += 1
 
     print(silnia)
+
