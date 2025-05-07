@@ -1,14 +1,12 @@
-# lekcja 30.04.2025
+# lekcja 7.05.2025
+# NWD
+# NWW
+def nwd(a ,b):
+    if b > a :
+        return nwd(b, a)
+    elif a == b or b == 0:
+        return a
+    else:
+        return nwd(b, a % b)
 
-silnia = 1
-parametr = 5
-i = 1
-
-while i <= parametr:
-    silnia *= i
-    i += 1
-
-    print(silnia)
-
-#NWD - największy wspólny dzielnik
-#NWW - najmniejsza wspólna wielokrotność
+print(f"Największym wspólnym mianownikiem jest {nwd( a=10, b=15)}")
