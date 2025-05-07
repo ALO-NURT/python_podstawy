@@ -75,10 +75,11 @@ def miejsca_zerowe (a,b,c):#definiowanie fukncji
 silnia = 1
 parametr = 5
 i = 1
-while i <= parametr
+while i <= parametr:
     silnia *= i
     i += 1
 
     print(silnia)
+
 
 
