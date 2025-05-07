@@ -10,4 +10,7 @@ def nww(a, b):
     return (a * b) // nwd(a, b)
 
 
-print(f"Najmniejsza wspólna wielokrotność dla 10 i 15 to: {nww(a=10, b=15)}")
+a= 10
+b = 15
+wynik_nww = nww(a, liczba2)
+print(f"Najmniejsza wspólna wielokrotność dla {liczba1} i {liczba2} to: {wynik_nww}")
