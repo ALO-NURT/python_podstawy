@@ -1,0 +1,1 @@
+def nwd(a, b):
