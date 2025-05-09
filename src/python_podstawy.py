@@ -1,3 +1,4 @@
+from random import randint
 
 # Podstawy programowania w Pythonie
 # To jest komentarz - nie jest wykonywany przez interpreter
@@ -57,3 +58,15 @@ elif lista[1] == 2:
     print("drugi elemnet listy jest równy dwa")
 else:
     print("coś innego")
+
+a = 8  # a równa się 8
+wynik = a == 8  #sprawdza czy a równa się 8 (true jeśli tak)
+
+for i in range(20):
+    losowa = randint(0, 100)
+    print(losowa)
+
+def miejsce_zerowe(a, b, c):
+    print("do zainterpretowania")
+    #y=ax^2 + bx + c
+miejsca_zerowe(1, 2, 3)
