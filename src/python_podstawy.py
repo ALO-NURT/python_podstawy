@@ -1,3 +1,4 @@
+from random import randint
 
 # Podstawy programowania w Pythonie
 # To jest komentarz - nie jest wykonywany przez interpreter
@@ -16,3 +17,22 @@ print(zmienna) # wypisuje zmienną na ekranie
 print(liczba)
 
 # operatory
+a = randint(8, 12)
+if a == 8:
+    print ("Wynik akceptowalny")
+elif a == 12:
+    print("O 4 za dużo")
+else:
+    print("Inne")
+for b in range(100):
+    print(b)
+c = 1
+while c <= 10:
+    print("Wszystko gra")
+    c += 1
+
+#funkcje
+def miejsca_zerowe (a,b,c):
+    print("Do zapaimplementowania")
+
+miejsca_zerowe(1,2,3)
