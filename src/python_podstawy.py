@@ -1,3 +1,4 @@
+from random import randint
 
 # Podstawy programowania w Pythonie
 # To jest komentarz - nie jest wykonywany przez interpreter
@@ -16,3 +17,19 @@ print(zmienna) # wypisuje zmienną na ekranie
 print(liczba)
 
 # operatory
+x = randint(0, 4)
+print(x)
+if x == 0:
+    print("x jest równy zero")
+elif x == 1:
+    print("x jest równy jeden")
+elif x == 2:
+    print("x jest równy dwa")
+elif x == 3:
+    print("x jest równy trzy")
+elif x == 4:
+    print("x jest równy cztery")
+
+def miejsca_zerowe (a,b,c):
+    print ("do zaimplementowania")
+miejsca_zerowe (1,2,3)
