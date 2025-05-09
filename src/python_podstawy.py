@@ -42,4 +42,17 @@ print(liczba)
 lista = [1, 2, 4, 8, 16, 32]
 krotka = (1, 2, 4, 8, 16, 32)
 print(lista)
-lista[5] = 33
+lista[5] = 33  # zmienia wartość danej liczby 32 => 33
+# krotka[5] = 33 to jest error
+print(lista)
+lista.append(64)
+print(lista)
+
+lista[0] = 2
+# instrukcja wwarunkowa
+if lista[0] == 1:
+    print("pierwszy element listy to jeden")
+elif lista[1] == 2:
+    print("drugi elemnet listy jest równy dwa")
+else:
+    print("coś innego")
