@@ -1,3 +1,4 @@
+from random import randint
 from time import sleep
 
 # Podstawy programowania w Pythonie
@@ -56,10 +57,15 @@ elif lista[1] == 2:
 else:
     print("coś innego")
 
-for i in range(0, 10):
-    print(i+1)
+for i in range(10):
+    print(i)
 
 j = 1
 while j <= 10:
     print(j)
     j += 1
+
+
+for i in range(20):
+    losowa = randint(0, 100)
+    print(losowa)
