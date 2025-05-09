@@ -1,5 +1,3 @@
-from typing import List
-
 # Podstawy programowania w Pythonie
 # To jest komentarz - nie jest wykonywany przez interpreter
 
@@ -48,8 +46,8 @@ print(lista)
 lista.append(64)
 print(lista)
 
-lista[0] = 2
-# instrukcja wwarunkowa
+lista[0] = 1
+# instrukcja warunkowa
 if lista[0] == 1:
     print("pierwszy element listy to jeden")
 elif lista[1] == 2:
