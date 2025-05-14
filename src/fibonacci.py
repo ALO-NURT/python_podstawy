@@ -6,7 +6,8 @@ def ciag_fibonacciego (n):
     elif n==1 or n==2:
         return 1
     else:
-        return ciag_fibonaciego(n - 1) + ciag_fibonaciego(n - 2)
-    n = 5
-    for i in range(1, n + 1):
-        print(f"F({i}) = {ciag_fibonaciego(i)}")
+        return ciag_fibonacciego(n - 1) + ciag_fibonacciego(n - 2)
+
+
+n = 10
+print(f"{n}. liczba ciągu fibonacciego to: {ciag_fibonacciego(n)}")
