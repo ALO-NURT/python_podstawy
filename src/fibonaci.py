@@ -7,7 +7,7 @@ def ciag_fibonacciego(n):
         return ciag_fibonacciego(n - 1) + ciag_fibonacciego(n - 2)
 
 
-print("6-ta liczba ciągu Fibonacciego to:", ciag_fibonacciego(6))
+print("5-ta liczba ciągu Fibonacciego to:", ciag_fibonacciego(5))
 
 
 
