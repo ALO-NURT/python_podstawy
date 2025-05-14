@@ -1,4 +1,4 @@
-#lekcja 7.05.2025
+#lekcja/7/05/2025
 #Największy wspólny dzielnik
 def nwd(a ,b):
     if b > a:

@@ -20,7 +20,7 @@ print("Wiktoria Olaczek")
 print ("zadanie domowe")
 
 
-##lekcja 16.04.2025##
+#lekcja/16/04/2025
 #operatory
 a = 6
 print(1 < a)
@@ -57,7 +57,7 @@ if lista == 1:
     else:
         print("drugi element nie jest dwójką")
 
-##lekcja 23.04.2025##
+#lekcja/23/04/2025
 def miejsca_zerowe (a,b,c):#definiowanie fukncji
     delta = b**2 - 4*a*c
     if delta < 0 :
@@ -71,7 +71,7 @@ def miejsca_zerowe (a,b,c):#definiowanie fukncji
         x2=(-b+delta_sqrt)/(2*a)
         print(f"miejsca zerowe to {x1} oraz {x2}")
 
-#lekcja 30.04.2025
+#lekcja/30/04/2025
 silnia = 1
 parametr = 5
 i = 1
