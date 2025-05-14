@@ -1,8 +1,9 @@
 def ciag_fibonacciego (n):
-    fib = [0, 1]  # pierwsze dwie liczby ciągu Fibonacciego
-    while len(fib) < n:
-        fib.append(fib[-1] + fib[-2])  # dodajemy sumę dwóch ostatnich elementów
-    return fib[:n]  # zwracamy tylko n elementów
+    if n == 1:
+        return 1
+    elif n == 2:
+        return 1
+    else:
+        return ciag_fibonacciego(n - 1) + ciag_fibonacciego(n - 2)
 
-print(ciag_fibonacciego(10))
-
+print("6. liczba ciągu Fibonacciego to:", ciag_fibonacciego(6))
