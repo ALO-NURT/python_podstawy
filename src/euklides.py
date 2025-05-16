@@ -1,14 +1,22 @@
 def nwd(a, b):
     while b != 0:
-        a, b = b, a % b
+        reszta = a % b
+        a = b
+        b = reszta
     return a
-
 def nww(a, b):
-    return abs(a * b) // nwd(a, b)
+    iloczyn = a * b
+    dzielnik = nwd(a, b)
+    wynik = abs(iloczyn) // dzielnik
+    return wynik
 
+print("Podaj dwie liczby całkowite:")
 
-if __name__ == "__main__":
-    x = 48
-    y = 18
-    print(f"NWD({x}, {y}) = {nwd(x, y)}")
-    print(f"NWW({x}, {y}) = {nww(x, y)}")
+pierwsza_liczba = int(input("Pierwsza liczba: "))
+druga_liczba = int(input("Druga liczba: "))
+
+wynik_nwd = nwd(pierwsza_liczba, druga_liczba)
+wynik_nww = nww(pierwsza_liczba, druga_liczba)
+
+print("Największy wspólny dzielnik (NWD) to:", wynik_nwd)
+print("Najmniejsza wspólna wielokrotność (NWW) to:", wynik_nww)
