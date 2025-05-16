@@ -1,9 +1,9 @@
 def nwd(a, b):
     if b > a:
         return nwd(b, a)
-    if a == b or b == 0:
+    elif a == b or b == 0:
         return a
-    if a > b:
+    else:
         return nwd(b, a % b)
 
 def nww(a, b):
