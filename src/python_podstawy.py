@@ -67,14 +67,5 @@ def miejsca_zerowe (a,b,c):#definiowanie fukncji
     x2=(-b+delta_sqrt)/(2*a)
     print(f"miejsca zerowe to {x1} oraz {x2}")
 
-# lekcja 30.04.2025
 
-silnia = 1
-parametr = 5
-i = 1
 
-while i <= parametr:
-    silnia *= i
-    i += 1
-
-    print(silnia)
