@@ -12,3 +12,5 @@ n = 5  # Możesz zmienić tę liczbę na dowolną inną
 for i in range(1, n + 1):
     print(f"F({i}) = {ciag_fibonaciego(i)}")
 
+
+
