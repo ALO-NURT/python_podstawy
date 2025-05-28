@@ -1,3 +1,4 @@
+from math import sqrt
 
 n = 25
 def liczba_pierwsza (n):
