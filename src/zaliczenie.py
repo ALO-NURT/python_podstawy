@@ -1,0 +1,1 @@
+print("Stanisław Drozdowski")
