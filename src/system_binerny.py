@@ -1,0 +1,1 @@
+primt("syste binarny")
