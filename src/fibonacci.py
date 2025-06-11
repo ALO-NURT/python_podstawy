@@ -1,4 +1,4 @@
-def ciag_fibonacciego (n):
+def ciag_fibonacciego(n):
     if n == 1:
         return 1
     elif n == 2:
