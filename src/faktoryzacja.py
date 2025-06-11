@@ -19,6 +19,23 @@ for liczba in range(10):
         wynik = wynik - liczba
 print(wynik)
 
-# sito erastotenesa ---> zawsze zaczyna od dwójki i dodsje kolejne liczby
+# sito erastotenesa ---> zawsze zaczyna od dwójki i dodaje kolejne liczby
 
 [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+
+def sito_erastotenesa(n):
+    if n<2:
+        return ([])
+    lista = [True]*(n+1)
+    lista[0] = False
+    lista[1] = False
+    for indeks in range (2,int(n**0.5)+1):
+        if lista[indeks]:
+            for i in range(2*indeks,n+1,indeks):
+                lista[i]=False
+    wynik=[]
+    for i in range (n+1):
+        if lista[i]:
+            wynik.append(i)
+    return(wynik)
+print(sito_erastotenesa(10))
