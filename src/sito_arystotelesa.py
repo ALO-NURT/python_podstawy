@@ -7,5 +7,8 @@ def sito_arystotelesa(n):
             for i in range (2*indeks, n+1, indeks):
                 lista [i] = False
     return(lista)
-
+    wynik=[]
+    for i in rage (n+1):
+        if lista [1]:
+            wynik.apppenol(i)
 print (sito_arystotelesa(10))
