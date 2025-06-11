@@ -81,5 +81,7 @@ while i <= parametr:
 
     print(silnia)
 
+#range(10) -> range(0 , 10)
+#range(2 , 10) -> range(2 , 10 , 1) #1 to "skok"
 
 
