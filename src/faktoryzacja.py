@@ -38,4 +38,4 @@ def sito_erastotenesa(n):
         if lista[i]:
             wynik.append(i)
     return(wynik)
-print(sito_erastotenesa(10))
+print(sito_erastotenesa(20))
