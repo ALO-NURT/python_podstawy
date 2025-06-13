@@ -11,7 +11,3 @@ def sito_erastotenesa(n):
             for i in range(indeks, n+1, indeks):
                 lista[i] = False
     return wynik
-
-print("Podaj liczbę:")
-n = int(input())
-print(sito_erastotenesa(n))
