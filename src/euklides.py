@@ -9,8 +9,6 @@ def nwd(a, b):
 def nww(a, b):
     return (a * b) // nwd(a, b)
 
-
-
 a = int(input("Podaj pierwszą liczbę "))
 b = int(input("Podaj drugą liczbę "))
 
