@@ -1,15 +1,15 @@
+def nwd(a, b):
+    while a != b:
+        if a > b:
+            a = a - b
+        elif a < b:
+            b = b - a
+        return a
+
 print("Pierwsza liczba (a):")
-c = a = int(input())
+a = int(input())
 print("Druga liczba (b):")
-d = b = int(input())
-
-while a != b:
-    if a > b:
-        a = a - b
-    elif a < b:
-        b = b - a
-
-nwd = a
+b = int(input())
 
 def nww(a, b):
     return (c * d) // nwd

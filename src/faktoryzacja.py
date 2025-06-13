@@ -1,6 +1,5 @@
 from math import sqrt
 
-
 def liczba_pierwsza(n):
     if n < 2:
         return False
