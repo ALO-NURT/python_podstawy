@@ -6,4 +6,4 @@ def ciag_fibonacciego(n):
     else:
         return ciag_fibonacciego(n-1) + ciag_fibonacciego(n-2)
 
-print("liczba ciągu Fibonacciego to:", ciag_fibonacciego(2))
+print("liczba ciągu Fibonacciego to:", ciag_fibonacciego(30))
