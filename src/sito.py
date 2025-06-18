@@ -10,4 +10,3 @@ def sito_erastotenesa(n):
             for i in range (2*indeks, n+1, indeks):
                 lista[i] = False
     return(lista)
-
