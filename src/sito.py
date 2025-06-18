@@ -10,3 +10,11 @@ def sito_erastotenesa(n):
             for i in range (2*indeks, n+1, indeks):
                 lista[i] = False
     return(lista)
+
+from src.sito_erastotenesa import sito_erastotenesaassert
+sito_erastotenesa(20) == [2, 3, 5, 7, 11, 13, 17, 19]
+
+assert liczba pierwsza(13)
+liczby_pierwsze = sito_erastotenesa(1000)
+for i in liczby_pierwsze:
+    assert liczby_pierwsze(i)
