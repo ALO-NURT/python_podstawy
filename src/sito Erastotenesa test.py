@@ -1,5 +1,13 @@
-from src.faktoryzacja import sito_eratotenesa
+from src.faktoryzacja import sito_erastotenesa
+from src.faktoryzacja import liczba_pierwsza
 
 assert sito_erastotenesa(10) == [2,3,5,7]
 assert sito_erastotenesa(20) == [2,3,5,7,11,13,17,19]
 
+assert liczba_pierwsza(12) == False
+assert liczba_pierwsza(13)
+liczby_pierwsze = sito_erastotenesa(1000)
+for i in liczby_pierwsze:
+    assert liczba_pierwsza(i)
+
+print(sito_erastotenesa(1000))
