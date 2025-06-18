@@ -39,3 +39,9 @@ def sito_erastotenesa(n):
             wynik.append(i)
     return(wynik)
 print(sito_erastotenesa(20))
+
+from src.sito_erastotenesa import sito_erastotenesaassert
+sito_erastotenesa(20) == [2, 3, 5, 7, 11, 13, 17, 19]
+
+#sprawdzamy czy nic nam nie podkreśla na czerwono
+
