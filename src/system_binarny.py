@@ -1,1 +1,1 @@
-print(System binarny)
+print("system_binarny")
