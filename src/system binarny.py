@@ -1,11 +1,15 @@
 print("system binarny")
 
-def dekoduj_system_binarny(liczba):
-    wynik = 0
-    for i in (liczba.__len__()):
-        if liczba[liczba.__len__() - i - 1] == "1":
-            wynik += 1 * (2 ** (liczba.__len__() - i))
-    return wynik
 
-print(dekoduj_system_binarny("1010"))
-print(dekoduj_system_binarny("101"))
+print("system_binarny")
+
+def dekoduj_system_binarny(liczba_binarna):
+    dlugosc_tekstu = liczba_binarna.__len__()
+    wynik = 0
+    for i in range(dlugosc_tekstu):
+        znak = liczba_binarna[dlugosc_tekstu - i - 1]
+        wynik += int(znak) * 2 ** i
+
+        print(wynik)
+
+dekoduj_system_binarny("1010110")
