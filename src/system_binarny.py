@@ -11,7 +11,7 @@ def dekoduj_system_binarny(liczba_binarna):
 
 def zamien_na_system_binarny(liczba):
     temp = int(liczba)
-    liczba_binarna = **
+    liczba_binarna = ""
     while temp > 0:
         remainder = temp % 2
         temp //= 2
