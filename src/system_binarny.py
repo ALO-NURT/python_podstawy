@@ -1,12 +1,34 @@
 print("system_binarny")
 
 def dekoduj_system_binarny(liczba_binarna):
-    długość_tekstu = liczba_binarna.__len__()
+    dlugosc_tekstu = liczba_binarna.__len__()
     wynik = 0
-    for i in range(długość_tekstu):
-        znak = liczba_binarna[długość_tekstu - i - 1]
+    for i in range(dlugosc_tekstu):
+        znak = liczba_binarna[dlugosc_tekstu - i - 1]
         wynik += int(znak) * 2 ** 1
 
     return wynik
 
-assert dekoduj_system_binarny("1010110") == 86
+
+def zamien_na_system_binarny(liczba):
+    temp = int(liczba)
+    liczba_binarna = ""
+    while temp> 0:
+        remainder = temp % 2
+        temp //=2
+        liczba_binarna = str(remainder) + liczba_binarna
+    return liczba_binarna
+
+
+print(dekoduj_system_binarny("1010110"))
+print(dekoduj_system_binarny("11001"))
+
+liczba_testowa = 134567324589
+
+print(zamien_na_system_binarny(liczba_testowa))
+binarna = zamien_na_system_binarny(liczba_testowa)
+dziesietna = dekoduj_system_binarny(binarna)
+
+print(f'liczba binarna : {binarna}, liczba dziesiętna: {dziesietna}')
+
+
