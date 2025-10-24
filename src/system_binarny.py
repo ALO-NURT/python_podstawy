@@ -7,8 +7,28 @@ def dekoduj_system_binarny(liczba_binarna):
         znak = liczba_binarna[dlugosc_tekstu - i - 1]
         wynik += int(znak) * 2 ** i
 
-        print(wynik)
+    return wynik
 
-dekoduj_system_binarny("1010110")
+def zamien_na_system_binarny(liczba):
+    temp = int(liczba)
+    liczba_binarna = ""
+    while temp > 0:
+        remainder = temp % 2
+        temp //= 2
+        liczba_binarna = str(remainder) + liczba_binarna
+
+    return liczba_binarna
+
+
+print(zamien_na_system_binarny(73))
+
+
+
+
+
+
+
+#print(dekoduj_system_binarny("111001"))
+#print(dekoduj_system_binarny("1010"))
 
 
