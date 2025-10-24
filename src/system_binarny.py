@@ -9,3 +9,15 @@ def dekoduj_system_binarny(liczba_binarna):
     print(wynik)
 
 dekoduj_system_binarny("1010110")
+
+def zamien_na_system_binarny(liczba):
+    temp = int(liczba)
+    liczba_binarna = ""
+    while temp > 0:
+        remainder = temp % 2
+        temp //= 2
+        liczba_binarna = str(remainder) + liczba_binarna
+
+    return liczba_binarna
+
+print(zamien_na_system_binarny(73))
