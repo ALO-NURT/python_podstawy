@@ -8,7 +8,7 @@ def dekoduj_system_binarny(liczba_binarna):
         wynik += (int(znak) * 2 ** i)
     print(wynik)
 
-dekoduj_system_binarny("1010110")
+#dekoduj_system_binarny("1010110")
 
 def zamien_na_system_binarny(liczba):
     temp = int(liczba)
