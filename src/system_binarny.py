@@ -30,3 +30,5 @@ print("Liczba w systemie dziesiętnym: (b):")
 b = str(input())
 print("Liczba w systemie binarny")
 print(zamień_na_system_binarny(b))
+
+
