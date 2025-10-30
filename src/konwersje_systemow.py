@@ -24,7 +24,6 @@ podstawa1 = int(input())
 print("Liczba w systemie dziesiętnym:")
 print(dekoduj_system_o_podstawie(a, podstawa1))
 
-# --- konwersja z systemu dziesiętnego na dowolny system (podstawa <= 10) ---
 print("Podaj liczbę w systemie dziesiętnym:")
 b = str(input())
 print("Podaj podstwaę systemu (<10) na który chcesz konwertowac tą liczbę:")
