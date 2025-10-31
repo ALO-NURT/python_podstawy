@@ -10,3 +10,12 @@ def dekoduj_system_binarny(liczba_binarna):
     print(wynik)
 
 dekoduj_system_binarny('10000')
+
+
+#zadanie domowe
+
+def dziesietny_na_binarny(liczba):
+    return bin(liczba)[2:]  # usuwa "0b" z przodu
+
+def binarny_na_dziesietny(liczba_binarna):
+    return int(liczba_binarna, 2)
