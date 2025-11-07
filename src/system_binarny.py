@@ -23,7 +23,7 @@ def zamien_na_system_binarny(liczba):
 print(zamien_na_system_binarny(73)
 
 def zamien_na_system(podstawa)
-    temp = int(podstawa)
+    temp = int(podstawa) #int oznacza liczbę całkowitą
     wynik = ""
     while temp > 0
         remainder = temp % podstawa
@@ -34,4 +34,4 @@ def zamien_na_system(podstawa)
 #nawiasy
 # () to zmienna, do której może byc funkcja
 # [] oznacza listę tutaj zeroelementowa
-# tablica.push("apple')
+# tablica.push("apple")
