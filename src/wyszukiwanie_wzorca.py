@@ -6,7 +6,7 @@ def find_in_text(text, exp):
         j = 0
         while j < ex_len and text[i+j] == exp[j]:
             j += 1
-    if j == ex_len:     # jeśli dopasowaliśmy cały exp
+    if j == ex_len:
             return i
 
     return "nie"
