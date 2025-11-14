@@ -9,7 +9,7 @@ def find_in_text(text, exp):
     if j == ex_len:
             return i
 
-    return "nie"
+    return -1
 
-print(find_in_text("Ala ma kota", "kota"))
+print(find_in_text("Ala ma kota", "Ala"))
 
