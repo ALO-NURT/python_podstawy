@@ -21,8 +21,21 @@ def zamien_na_system_binarny(liczba):
 
 
 print(zamien_na_system_binarny(73))
+liczba_testowa = 121
 
+binarna = zamien_na_system_binarny(liczba_testowa)
+dziesietna = dekoduj_system_binarny(binarna)
 
+print(f'liczba binarna: {binarna}, liczba dziesietna: {dziesietna}')
+
+def zamien_na_system_binarny(liczba , podstawa = 2):
+    temp = int(liczba)
+    wynik = ""
+    while temp > 0:
+        remainder = temp % podstawa
+        temp = temp // podstawa
+        wynik =str = str(remainder) + wynik
+    return wynik
 
 
 
