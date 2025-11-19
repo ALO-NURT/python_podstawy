@@ -6,10 +6,14 @@ def find_in_text(text, exp):
         j = 0
         while j < ex_len and text[i+j] == exp[j]:
             j += 1
-    if j == ex_len:
+        if j == ex_len:
             return i
 
     return -1
 
-print(find_in_text("Ala ma kota", "Ala"))
-
+print("Tekst:")
+a = str(input())
+print("Znajdź:")
+b = str(input())
+print("Index pierwszej litery:")
+print(find_in_text(a, b))
