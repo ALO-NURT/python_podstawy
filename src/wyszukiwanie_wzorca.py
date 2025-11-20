@@ -8,4 +8,5 @@ def find_esxpression(text, exp):
         if j == ex_len:
             return i
     return -1
-print(find_esxpression("Ala ma kota", "Ala"))
+
+print(find_esxpression("Ala ma kota", "kota"))
