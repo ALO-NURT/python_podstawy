@@ -12,3 +12,11 @@ def wyszukiwanie_wzorca(text,pattern):
     return matches
 
 print(wyszukiwanie_wzorca("banana", "ana"))
+
+with open ("test_data.txt") as file:
+    lines = [line.rstrip() for line in file]
+
+text = lines[0]
+pattern = lines[1]
+result = wyszukiwanie_wzorca(text, pattern)
+print(result)
