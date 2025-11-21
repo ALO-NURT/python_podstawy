@@ -10,5 +10,9 @@ def find_expression(text, ex):
             return i
     return -1
 
+with open("test_data.txt") as file:
+    lines = [line.rstrip() for line in file]
 
-print(find_expression("jestem zmęczona", "zmęczona"))
+text = lines[0]
+pattern = lines[0]
+print(find_expression(text, pattern))
