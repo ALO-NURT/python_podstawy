@@ -1,15 +1,19 @@
-def wyszukiwanie_wzorca(text, pattern):
+def find_in_text(text, exp):
+    ex_len = len(exp)
+    text_len = len(text)
 
-    matches = []
-    
-    for i in range(len(text) - len(pattern) + 1):
-        match = True
-        for j in range(len(pattern)):
-            if text[i + j] != pattern[j]:
-                match = False
-                break
-        
-        if match:
-            matches.append(i)
-    
-    return matches
+    for i in range(text_len - ex_len + 1):
+        j = 0
+        while j < ex_len and text[i+j] == exp[j]:
+            j += 1
+        if j == ex_len:
+            return i
+
+    return -1
+
+print("Tekst:")
+a = str(input())
+print("Znajdź:")
+b = str(input())
+print("Index pierwszej litery:")
+print(find_in_text(a, b))
