@@ -1,4 +1,4 @@
-def find_expression (text , exp):
+def find_expression(text , exp):
     exp_len = len(exp)
     text_len = len(text)
     for i in range(text_len - exp_len + 1):
@@ -9,4 +9,14 @@ def find_expression (text , exp):
             return i
     return -1
 
-find_expression("ala ma kota" , "ota")
+print(find_expression("ala ma kota" , "ota"))
+
+with open("test_data.txt") as file:
+    lines = [line.rstrip() for line in file]
+
+text = lines[0]
+pattern = lines[1]
+result = find_expression(text, pattern)
+print(result)
+# End of file wyszukiwanie_wzorca.py
+
