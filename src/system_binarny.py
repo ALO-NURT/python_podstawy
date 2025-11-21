@@ -1,5 +1,5 @@
 def dekoduj_system_binarny(liczba_binarna):
-    dlugosc_tekstu = liczba_binarna.__len__()
+    dlugosc_tekstu = len(liczba_binarna)
     wynik = 0
     for i in range(dlugosc_tekstu):
         znak = liczba_binarna[dlugosc_tekstu - i - 1]
