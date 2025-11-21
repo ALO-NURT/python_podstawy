@@ -9,6 +9,12 @@ def find_expression (text='Ala ma kota',exp='kota'):
             return i
     return -1
 
+text = input()
+pattern = input()
+print(pattern)
+# result = find_expression(text,pattern)
+# print(result)
+
 def wyszukiwanie_wzorca(text,a):
     matches = []
     for i in range(len(text) - len(a) + 1):
