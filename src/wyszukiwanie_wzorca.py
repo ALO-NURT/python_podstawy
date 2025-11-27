@@ -26,3 +26,5 @@ def wyszukiwanie_wzorca(text,a):
         if match:
             matches.append(i)
     return matches
+
+# Dostaniesz 5+, jak wytłumaczyszysz, jak działa ten kod
