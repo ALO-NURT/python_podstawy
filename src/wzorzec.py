@@ -1,3 +1,4 @@
+# Ta funkcja jest już zdefiniowana w innym pliku - czy jest sposób, żeby z niej skorzystać?
 def find_in_text(text, exp):
     ex_len = len(exp)
     text_len = len(text)
@@ -11,9 +12,11 @@ def find_in_text(text, exp):
 
     return -1
 
-with open("text_data.txt") as file:
+with open("test_data.txt") as file:
     lines = [line.rstrip() for line in file]
 
 text = lines[0]
 pattern = lines[1]
-print(find_expression(text, pattern))
+print(find_in_text(text, pattern))
+
+# Wprowadziłem poprawki, żeby kod działał
