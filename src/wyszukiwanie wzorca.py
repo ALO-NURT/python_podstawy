@@ -24,3 +24,4 @@ def wyszukiwanie_wzorca(text,bla):
     return matches
     print(wyszukiwanie_wzorca(text,bla))
 
+# Dostaniesz 5+ jeśli wytłumaczysz jak działa ten algorytm
