@@ -13,3 +13,5 @@ def wyszukiwanie_wzorca(text, pattern):
             matches.append(i)
    
     return matches
+
+# Dostaniesz 5+, jak wytłumaczysz działanie tego kodu!
