@@ -20,3 +20,5 @@ text = lines[0]
 pattern = lines[1]
 result = wyszukiwanie_wzorca(text, pattern)
 print(result)
+
+# świetny kod - dostaniesz 5+ jak wytłumaczysz jak działa algorytm!
