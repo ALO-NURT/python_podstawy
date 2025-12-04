@@ -1,3 +1,24 @@
+visited = set()
+
+def check_visited(position, direction, distance):
+    x, y = position
+    i, j = 0, 0
+    if direction == 0:  # North
+        j = 1
+    elif direction == 1:  # East
+        i = 1
+    elif direction == 2:  # South
+        j = -1
+    elif direction == 3:  # West
+        i = -1
+    for step in range(1, distance + 1):
+        new_x = x + i * step
+        new_y = y + j * step
+        if (new_x, new_y) in visited:
+            print("visited twice:", abs(new_x) + abs(new_y))
+        else:
+            visited.add((new_x, new_y))
+
 def change_direction(current_direction, turn):
     if turn == 'L':
         return (current_direction - 1) % 4
@@ -6,6 +27,7 @@ def change_direction(current_direction, turn):
 
 def move(position, direction, distance):
     x, y = position
+    check_visited(position, direction, distance)
     if direction == 0:  # North
         return x, y + distance
     elif direction == 1:  # East
