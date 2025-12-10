@@ -1,7 +1,6 @@
 def tekst_na_liste(tekst):
     lista = []
     aktualne = ""
-
     for znak in tekst:
         if znak == ",":
             if aktualne != "":
@@ -12,7 +11,6 @@ def tekst_na_liste(tekst):
 
     if aktualne != "":
         lista.append(aktualne)
-
     return lista
 
 def odległosc(instrukcje):
@@ -23,7 +21,6 @@ def odległosc(instrukcje):
     # 3 - zachód
     x = 0
     y = 0
-
     for i in instrukcje:
         obrót = i[0]
         kroki = int(i[1:])
