@@ -21,5 +21,6 @@ def find_expression(text, ex):
             return i
     return -1
 
+# ta funkcja jest zdefiniowana dwukrotnie!
 
 print(find_expression("wzorzec", "wzorzec"))
