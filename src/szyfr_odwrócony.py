@@ -11,4 +11,4 @@ def szyfr_odwroc(text):
     ret = ""
     for item in list:
         ret += item + ""
-    text[::-1]
+text[::-1]
