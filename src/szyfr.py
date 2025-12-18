@@ -1,4 +1,11 @@
 def szyfr_odwroc(text):
-    return text[::-1]
-print(szyfr_odwroc("Ala ma kota"))
+    words = text.split()
+    zaszyfrowane = []
+    for w in words:
+        odwrocone = w[::-1]
+        zaszyfrowane.append(odwrocone)
+    return " ".join(zaszyfrowane)
 
+
+tekst = "Ala ma kota"
+print(szyfr_odwroc(tekst))
