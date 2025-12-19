@@ -1,0 +1,1 @@
+def analiza_czestosci():
