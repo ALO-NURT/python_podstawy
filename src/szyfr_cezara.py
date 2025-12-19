@@ -7,7 +7,8 @@ def szyfr_cezara(text, shift):
             litera = alfabet.index(znak.lower())
             nowa_litera = alfabet[(litera + shift) % len(alfabet)]
             szyfr.append(nowa_litera)
-
+            if znak != znak.lower():
+                szyfr.append(nowa_litera.upper())
         else:
             szyfr.append(znak)
     return "".join(szyfr)
