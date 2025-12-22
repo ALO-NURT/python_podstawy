@@ -1,5 +1,5 @@
 alfabet = ["a", "ą", "b", "c", "ć", "d", "e", "ę", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ń", "o", "ó", "p", "r",
-           "s", "ś", "t", "u", "w", "y", "z", "ż", "ź"]
+           "s", "ś", "t", "u", "w", "y", "z", "ź", "ż"]
 
 def szyfr_cezara(text, shift):
     szyfr = []
@@ -15,6 +15,6 @@ def szyfr_cezara(text, shift):
             szyfr.append(znak)
     return "".join(szyfr)
 
-tekst = open("szyfry/test_data.txt", encoding="utf-8").read()
+tekst = open("test_data.txt", encoding="utf-8").read()
 shift = 3
 print(szyfr_cezara(tekst, shift))
