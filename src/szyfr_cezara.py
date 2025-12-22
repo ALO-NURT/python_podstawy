@@ -1,6 +1,7 @@
+alfabet = ["a", "ą", "b", "c", "ć", "d", "e", "ę", "f", "g", "h", "i", "j", "k", "l", "m", "n", "ń", "o", "ó", "p", "r",
+           "s", "ś", "t", "u", "w", "y", "z", "ż", "ź"]
+
 def szyfr_cezara(text, shift):
-    alfabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "r", "s", "t", "u", "w", "y", "z"]
-    # alfabet mógłby być zmienną globalną aby nie tworzyć go za każdym razem gdy wywołujemy funkcję
     szyfr = []
     for znak in text:
         if znak.lower() in alfabet:
@@ -14,11 +15,6 @@ def szyfr_cezara(text, shift):
             szyfr.append(znak)
     return "".join(szyfr)
 
-# zastanów się nad złożonością obliczeniową tego rozwiązania - czy i jak można ją poprawić?
-
-print("Podaj tekst do zaszyfrowania:")
-text = str(input())
-print("Podaj przesunięcie liter w szyfrze:")
-shift = int(input())
-print("Zaszyfrowany tekst:")
-print(szyfr_cezara(text, shift))
+tekst = open("szyfry/test_data.txt", encoding="utf-8").read()
+shift = 3
+print(szyfr_cezara(tekst, shift))

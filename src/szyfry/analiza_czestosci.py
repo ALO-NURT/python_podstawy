@@ -8,4 +8,5 @@ def analiza_czestosci(tekst):
                 licznik += 1
         print(znak, licznik)
 
-print(analiza_czestosci("ala ma kota"))
+text = open("test_data.txt").read()
+print(analiza_czestosci(text))
