@@ -19,6 +19,6 @@ if __name__ == "__main__":
     print("Niezaszyfrowany tekst:")
     tekst = str(input())
     print("Przesunięcie:")
-    shift = int(input())
+    przesuniecie = int(input())
     print("Zaszyfrowany tekst:")
-    print(szyfr_cezara(tekst, shift))
+    print(szyfr_cezara(tekst, przesuniecie))
