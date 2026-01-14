@@ -30,7 +30,8 @@ def lamacz_szyfrow(szyfr):
     tekst_odszyfrowany = szyfr_cezara(szyfr, -najlepszy_klucz)
     return tekst_odszyfrowany
 
-print("Zaszyfrowany tekst:")
-szyfr_wejscie= str(input())
-print("Odszyfrowany tekst:")
-print(lamacz_szyfrow(szyfr_wejscie))
+if __name__ == "__main__":
+    print("Zaszyfrowany tekst:")
+    szyfr_wejscie= str(input())
+    print("Odszyfrowany tekst:")
+    print(lamacz_szyfrow(szyfr_wejscie))
