@@ -15,3 +15,5 @@ def wyszukiwanie_wzorca(text, patern):
     return wyniki
 
 print(wyszukiwanie_wzorca("lubię informatykę", "informatykę"))
+
+# będzie 5+ jak wytłumaczysz jak to działa
