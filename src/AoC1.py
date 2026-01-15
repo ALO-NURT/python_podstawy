@@ -34,4 +34,4 @@ for s in steps:
         x -= dist
 
 print("Wraz końcowy:", x, y)
-print("Odległość od środka:", abs(x) + abs(y))
+print("Odległość od śr      odka:", abs(x) + abs(y))
