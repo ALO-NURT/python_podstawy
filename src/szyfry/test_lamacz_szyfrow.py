@@ -15,7 +15,10 @@ czestosc_realna = [
     0.061, 0.885
 ]
 
-tekst_1 = open("test_data.txt", encoding="utf-8").read()
+tekst_1 = ""
+with open("test_data.txt", encoding="utf-8") as file:
+    tekst_1 = file.read()
+
 klucz_losowy = random.randint(1, 31)
 szyfr = szyfr_cezara(tekst_1, klucz_losowy)
 
