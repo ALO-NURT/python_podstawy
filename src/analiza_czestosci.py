@@ -11,8 +11,8 @@ for znak in text:
         ilosc += 1
         if lower in litery:
             litery[lower] += 1
-        else
-            litery[lower = 1
+        else:
+            litery[lower] = 1
 
 for litera in litery.keys():
     print(f'"{litera}", {litery[litera] / ilosc}')
