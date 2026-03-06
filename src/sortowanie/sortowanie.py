@@ -24,4 +24,4 @@ if __name__ == "__main__":
     print("Liczby do posortowania (odzdzielone przecinkiem):")
     dane = str(input())
     print("Posortowane liczby:")
-    print(lsortowanie(utworz_liste_wejsciowa(dane)))
+    print(sortowanie(utworz_liste_wejsciowa(dane)))
