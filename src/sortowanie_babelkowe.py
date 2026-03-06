@@ -6,7 +6,7 @@ def buble_sort (table):
             if table[i] > table[i+1]:
                 temp = table[i]
                 table[i] = table [i+1]
-                table[i] = table[i+1]
+                table[i] = table[i+1] # powtórzona linijka - niepotrzebna
                 table[i+1] = temp
                 sorted = False
     return table
