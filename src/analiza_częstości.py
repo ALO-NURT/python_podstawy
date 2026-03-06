@@ -18,6 +18,6 @@ for znak in text:
             litery[lower] = 1
 
 for litera in litery.keys():
-    print(f'"{litera}", {litery[litera] / ilosc}' + "Dziękuje za sprawdzanie!")
+    print(f'"{litera}", {litery[litera] / ilosc}')
 
 #print(litery)
