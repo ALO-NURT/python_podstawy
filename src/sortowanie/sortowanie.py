@@ -1,5 +1,6 @@
 def utworz_liste_wejsciowa(wejscie):
-    liczby = wejscie.split(", ")
+    liczby = wejscie.split(", ") # lepiej jest oddzielać po samym przecinku - wtedy można wprowadzać liczby bez spacji jak i ze spacją - jest to bardziej elastyczne
+    # int("    5") zwróci 5 - spacje są ignorowane
     lista_wejsciowa = []
     for liczba in liczby:
         lista_wejsciowa.append(int(liczba))
