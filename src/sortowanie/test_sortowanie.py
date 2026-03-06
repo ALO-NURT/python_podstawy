@@ -2,8 +2,8 @@ import random
 from sortowanie import sortowanie
 
 losowe_liczby = []
-for i in range(1000):
-    nowa_liczba = random.randint(0, 100000)
+for i in range(1000000):
+    nowa_liczba = random.randint(0, 1000000)
     losowe_liczby.append(nowa_liczba)
 
 liczby_posortowane = sortowanie(losowe_liczby)
