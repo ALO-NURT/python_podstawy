@@ -11,8 +11,5 @@ def sortowanie_babelkowe(lista):
                 sorted = False
     return lista
 
-if __name__ == "__main__":
-    print("Liczby do posortowania (odzdzielone przecinkiem):")
-    dane = str(input())
-    print("Posortowane liczby:")
-    print(sortowanie_babelkowe(utworz_liste_wejsciowa(dane)))
+lista = [1,8,6,9,7,5,1,100000,44, 31, 2137,4875]
+print(sortowanie_babelkowe(lista))
