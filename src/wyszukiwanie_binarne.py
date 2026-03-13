@@ -5,3 +5,16 @@ lista_slow = ["Gabrysia", "Hela", "Jan", "Julia", "Maciej", "Oliwia"]
 print(len(tekst))
 print(len(lista_liczb))
 print(len(lista_slow))
+
+def wyszukiwanie_binarne(lista, element):
+    początek = 0
+    koniec = len(lista)
+    while koniec>początek:
+        mid = (koniec + początek)//2
+        if lista[mid] == element:
+            return mid
+        elif lista[mid] > element:
+            koniec = mid
+        else:
+            początek = mid
+    return -1
