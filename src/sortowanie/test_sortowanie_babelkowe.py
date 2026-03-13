@@ -2,7 +2,7 @@ import random
 from sortowanie_babelkowe import sortowanie_babelkowe
 
 losowe_liczby = []
-for i in range(1000000):
+for i in range(1000):
     nowa_liczba = random.randint(0, 1000)
     losowe_liczby.append(nowa_liczba)
 

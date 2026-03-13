@@ -2,7 +2,7 @@ import random
 from sortowanie import sortowanie
 
 losowe_liczby = []
-for i in range(1000000):
+for i in range(10000):
     nowa_liczba = random.randint(0, 1000000)
     losowe_liczby.append(nowa_liczba)
 
