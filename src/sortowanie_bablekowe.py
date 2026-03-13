@@ -1,6 +1,6 @@
 def bubble_sort (table):
     sorted = False
-    while not sorted:
+    while not sorted: # czy ta pętla się skończy? I dlaczego nie?
         for i in range(len(table) - 1):
             if table[i] > table[i+1]:
                 temp = table[i]
