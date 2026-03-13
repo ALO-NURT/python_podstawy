@@ -1,5 +1,3 @@
-from sortowanie import utworz_liste_wejsciowa
-
 def sortowanie_babelkowe(lista):
     n = len(lista)
     sorted = False
