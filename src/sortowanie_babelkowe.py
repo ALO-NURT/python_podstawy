@@ -1,12 +1,12 @@
 def buble_sort (table):
     sorted = False
     lenght = len(table)
-    while not sorted:
+    while not sorted: # czy ta pętla się skończy? I dlaczego nie?
         for i in range(lenght - 1):
             if table[i] > table[i+1]:
                 temp = table[i]
                 table[i] = table [i+1]
-                table[i] = table[i+1]
+                table[i] = table[i+1] # powtórzona linijka - niepotrzebna
                 table[i+1] = temp
                 sorted = False
     return table
