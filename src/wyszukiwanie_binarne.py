@@ -15,5 +15,6 @@ def wyszukiwanie_binarne(lista, element):
             return mid
         elif lista[mid] > element:
             poczatek = mid
+        # tutaj chyba czegoś brakuje
     return -1
 
