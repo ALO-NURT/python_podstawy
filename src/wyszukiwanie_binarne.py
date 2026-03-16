@@ -4,7 +4,7 @@ lista_imion = ["Gabrysia", "Hela", "Jan", "Julia", "Jagna", "Maciej", "Oliwia", 
 def wyszukiwanie_binarne(lista,element):
     poczatek = 0
     koniec = len(lista)
-    while koniec>poczatek:
+    while koniec>poczatek: # dlaczego ta pętla się nie skończy?
         mid = (koniec + poczatek) //2
     if lista[mid] == element:
         return mid
