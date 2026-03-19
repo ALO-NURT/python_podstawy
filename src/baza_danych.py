@@ -2,8 +2,8 @@ import mysql.connector
 
 database = mysql.connector.connect(
     host="alo-nurt.pl",
-    user="alo-uczen",
-    password="ALO.mysql9",
+    user="",
+    password="",
     database="alo_test_db"
 )
 
