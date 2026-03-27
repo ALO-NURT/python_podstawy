@@ -17,4 +17,4 @@ def wyszukiwanie_binarne(lista, element):
             koniec = mid
         else:
             poczatek = mid
-        return -1
+        return -1 # dlaczego praktycznie zawsze będzie -1?
