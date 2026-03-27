@@ -8,7 +8,7 @@ database = mysql.connector.connect(
 )
 
 cursor = database.cursor()
-cursor.execute("select * from bank_client")
+cursor.execute("select pesel from bank_client")
 records = cursor.fetchall()
 
 for record in records:
