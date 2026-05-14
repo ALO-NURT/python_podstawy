@@ -4,7 +4,6 @@ def dekoduj_system_binarny(liczba_binarna):
     for i in range(dlugosc_tekstu):
         znak = liczba_binarna[dlugosc_tekstu - i - 1]
         wynik += int(znak) * 2 ** i
-
     return wynik
 
 def zamień_na_system_binarny(liczba):
@@ -14,7 +13,6 @@ def zamień_na_system_binarny(liczba):
         reminder = temp % 2
         temp //= 2
         liczba_binarna = str(reminder) + liczba_binarna
-
     return liczba_binarna
 
 print("Liczba w systemie binarnym (a):")
