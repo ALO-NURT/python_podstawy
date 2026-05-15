@@ -16,7 +16,7 @@ def liczby_nieparzyste(lista):
     liczby_nieparzyste = 0
     for m in range(len(lista)):
         if lista[m] % 2 == 1:
-            liczby_nieparzyste =+ 1
+            liczby_nieparzyste += 1
     if liczby_nieparzyste == 0:
         return "Nie ma liczb nieparzystych"
 
