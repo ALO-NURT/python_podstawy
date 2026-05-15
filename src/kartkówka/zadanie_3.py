@@ -13,5 +13,4 @@ if __name__ == "__main__":
     wejscie = (str(input())).split(", ")
     for j in range(len(wejscie)):
         wejscie[j] = int(wejscie[j])
-
     print(ciag_prawie_malejacy(wejscie))
