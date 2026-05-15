@@ -12,4 +12,4 @@ print(f"2. Samogłoski w napisie: {', '.join(znalezione_samogloski)}")
 
 
 czy_zaczyna = napis.startswith('#')
-print(f"3. Czy zaczyna się od '#': {czy_zaczyna}") .
+print(f"3. Czy zaczyna się od '#': {czy_zaczyna}") ..
