@@ -1,0 +1,1 @@
+def tekst_i_litery(text"W specjacji sympatrycznej nie ma barier geograficznych"):
