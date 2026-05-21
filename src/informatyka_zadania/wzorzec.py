@@ -12,7 +12,7 @@ def find_in_text(text, exp):
 
     return -1
 
-with open("szyfry/test_data.txt") as file:
+with open("../szyfry/test_data.txt") as file:
     lines = [line.rstrip() for line in file]
 
 text = lines[0]
