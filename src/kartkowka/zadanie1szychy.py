@@ -22,3 +22,4 @@ def analiza_liczb(analiza_liczb) -> None:
     print(f"ilość liczb dodatnich: {ilość_dodatnich}")
     print(f"Największa parzysta: {największa_liczba if not największa_liczba is None else'brak'}")
     print(f"Różnica między największą a najmniejszą liczbą: {największa_liczba - najmniejsza_liczba}")
+
