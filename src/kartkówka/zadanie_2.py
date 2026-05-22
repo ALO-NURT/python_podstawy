@@ -1,7 +1,7 @@
 def tekst_i_litery(tekst):
     wynik = []
     liczba_malych_liter = 0
-    samogloski = ["a", "ą", "e", "ę", "i", "o", "ó", "y"]
+    samogloski = ["a", "ą", "e", "ę", "i", "o", "ó", "u", "y"]
     samogloski_w_tekscie = []
     tag = "Nie"
 
