@@ -1,28 +1,19 @@
-liczby = [1, 4, 5, -2, 7, 8, 2]
-
-
-def ujemne(x):
-    lujemnych = 0
-    for liczba in x:
-        if liczba < 0:
-            lujemnych = lujemnych + 1
-    return lujemnych
-
-
-def suma(y):
-    k = 0
-    u = 0
-    g = k + u
-    for liczba in y:
-        if y >= (y - 1):
-            k = (y)
-    for liczba in u:
-        if u <= (u - 1):
-            u = (y)
-    return g
-
-
-print("ujemne")
-print(ujemne(liczby))
-print("suma")
-print(suma(liczby))
+def analiza_liczb(lista_liczb):
+    ilosc_liczb_dodatnich = 0
+    najwieksza_parzysta = None
+    najwieksza_liczba = lista_liczb[0]
+    najmniejsza_liczba = lista_liczb[0]
+    for i in lista_liczb:
+        if i > 0:
+            ilosc_liczb_dodatnich += 1
+        if i % 2 == 0:
+            if najwieksza_parzysta is None or i > najwieksza_parzysta:
+                najwieksza_parzysta = i
+        if i > najwieksza_liczba:
+            najwieksza_liczba = i
+        if i < najmniejsza_liczba:
+            najmniejsza_liczba = i
+    print(f"Ilość liczb dodatnich:{ilosc_liczb_dodatnich}")
+    print(f"Największa parzysta:{najwieksza_parzysta}")
+    print(f"Różnica między największą a najmniejszą liczbą:{najwieksza_liczba - najmniejsza_liczba}")
+print (analiza_liczb([1,2,3,5,6,7,8,9]))
