@@ -7,11 +7,11 @@ def wyszukiwanie_binarne(lista,element):
     koniec = len(lista) -1
     while koniec > poczatek: # dlaczego ta pętla się nie skończy?
         mid = (koniec + poczatek) //2
-    if lista[mid] == element:
-        return mid
-    elif lista[mid] > element:
-        koniec = mid
-    else: 
-        poczatek = mid + 1
+        if lista[mid] == element:
+            return mid
+        elif lista[mid] > element:
+            koniec = mid
+        else: 
+            poczatek = mid + 1
     return -1
 
