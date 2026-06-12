@@ -1,6 +1,6 @@
 # wersja druga zadania 3, zrobiłem ją w domu
 def ciag_prawie_malejacy(lista):
-    for i in range (len(lista)):
+    for i in range(len(lista)):
         tymczasowa_lista = []
         for n in range(len(lista)):
             if n != i:
