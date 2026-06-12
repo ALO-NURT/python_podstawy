@@ -19,3 +19,4 @@ def wyszukiwanie_binarne (lista , element):
             początek = mid
     return -1
 
+
