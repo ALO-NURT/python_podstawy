@@ -21,4 +21,4 @@ print("samogloski:", samogloski)
 print("hash?:", hash_znak)
 
 napis = input("Podaj napis:")
-zadanie2(napis)
+
